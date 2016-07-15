@@ -1,0 +1,62 @@
+COD_ACTUACION|CACT_NOMBRE|CODUNIDAD
+181|Analítica: extracción a las XXX  horas.|002083
+182|Fiebre: Tratamiento.|002083
+183|Analítica: Solicitud a las XXX horas.|002083
+184|Apoyo familiar.|002083
+185|Cambios posturales (PAUTA): Cada   horas.|002083
+186|Cambios posturales (realización): cada  horas.|002083
+187|Control de infecciones.|002083
+188|Cuidados: apoyo al autocuidado (especificar).|002083
+189|Cuidados: apoyo emocional.|002083
+190|Cuidados: apoyo en la toma de decisiones.|002083
+191|Cuidados: asesoramiento.|002083
+192|Cuidados: catéter venoso.|002083
+193|Cuidados: heridas.|002083
+194|Cuidados: manejo del dolor.|002083
+195|Cuidados: ostomía.|002083
+196|Cuidados: piel.|002083
+197|Cuidados: sonda nasogástrica.|002083
+198|Cuidados suturas.|002083
+199|Cuidados: úlceras por presión.|002083
+200|Cuidados: vigilancia de la piel.|002083
+201|Educación sanitaria.|002083
+203|Estudio radiológico: traslado paciente a las  horas.|002083
+204|Estudio radiológico: solicitud a las  horas.|002083
+205|Fiebre: Vigilancia.|002083
+206|Control de pupilas.|002083
+207|Monitorización respiratoria.|002083
+208|Oxigenoterapia.|002083
+209|Prevención de caídas.|002083
+210|Resucitación.|002083
+211|Sujeción Física.|002083
+212|Técnicas: canalización vía venosa (especificar).|002083
+213|Técnicas: cambio en canalización vía venosa a las XXX horas.|002083
+214|Técnicas: punción arterial a las XXX horas.|002083
+215|Técnicas: sondaje uretral intermitente.|002083
+216|Técnicas: sondaje uretral permanente.|002083
+217|Cuidados de complicaciones tras movilización.|002083
+221|Enema Casen 250 ml. 1 sola dosis|002083
+222|Enema Casen 140 ml. 1 sola dosis|002083
+223|Carbon Activado 50 Gr. 1 frasco.|002083
+241|Temperatura|002083
+242|TA|002083
+243|Reposo|002083
+244|Oximetría|002083
+245|Monotorización Cardiaca|002083
+246|Medir diuresis|002083
+247|Glucemia|002083
+248|Dieta|002083
+261|Tratamiento en Observación: |002083
+262|Tratamiento en PIN :|002083
+263|Tratamiento Trauma:|002083
+264|Tratamiento Evolución :|002083
+281|Sonda naso-gástrica|002083
+301|Tomar Tensión Arterial|002083
+321|Vendajes:|002083
+322|Sutura de herida|002083
+323|Cura de herida|002083
+324|Collar Cervical|002083
+325|Via periférica|002083
+326|Ferula|002083
+327|Via heparinizada|002083
+341|Actuaciones al paciente|002083

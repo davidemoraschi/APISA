@@ -1,0 +1,3 @@
+EXEC send_to_SP2013_excelfile_v3(reportId => 'A0A6253D4CA29DD57030D68E934D3EFA', projectName=>'SIGLO_DESARROLLO');
+
+select * from V$NLS_VALID_VALUES;

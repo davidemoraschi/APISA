@@ -1,0 +1,22 @@
+CODIGO|DESCRIPCION|EXITUS|CODIGO_BDU|TRANSA|ESTADO
+1|Domicilio|0|||
+2|Médico de Familia|0|||
+3|Traslado a otro Hospital|0||HOSPITAL|5
+4|Exitus|1|1|EXITUS|
+5|Especialista|0|||
+6|Otro|0|||
+7|No acude|0|||
+8|Ingreso en planta|0||PLANTA|3
+9|Fuga|0|||
+10|Alta Voluntaria|0|||
+11|Paso a Consultas Externas|0||EXTERNAS|
+12|Hospitalización a domicilio|0|||
+13|Alta Voluntaria in-extremis|0|||
+14|Traslado a Residencia Social|0|||
+15|Interconsulta Atendida|0||INTERCONSULTA|4
+16|Ingreso Cadáver o Llegado fallecido|1|1|EXITUS|
+17|Traslado a otro servicio|0||TRASLADO|
+18|Traslado a Hospital acompañado por personal sanitario|0|||
+19|Mutua Laboral|0|||
+20|Hospital no público|0|||
+21|Admisión en otro Centro|0|||

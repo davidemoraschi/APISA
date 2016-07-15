@@ -1,0 +1,123 @@
+EU_IDENTIFICADOR|ADM_PRO_DATOS
+917200|Accidente de tráfico en la carretera N-IV, a la altura del cruce de Guadalema, iba de acompañante en una furgoneta. Un furgón blindado colisionó frontalmente con dicha furgoneta.
+917201|Accidente de trabajo en la carretera N.IV a la altura del Cruce de Guadalema, colisionó frontalmente con un furgón blindado, pasajero en una furgoneta.
+917202|Accidente de tráfico, pasajero de una furgoneta que colisionó frontalmente con un furgón blindado en la carretera Nacional IV, a la altura del Cruce de Guadalema
+917204|Acompañante de una furgoneta, accidente en la Nacional IV, a la altura del cruce de Guadalema de los Quinteros, recibió una colisión frontal de un furgón blindado.
+917220|Peatón atropellado por un coche al cruzar la Avenida de España de Dos Hermanas.
+917302|Ocupante de un coche que fue alcanzado por detrás. Ocurrió en la Avenida de España, en la rotonda donde se encuentra el Mercadona.
+917303|Conductor de un coche que fue alcanzado por detrás, en la  Avenida de España, de Dos Hermanas, a la altura de la rotonda del Mercadona.
+917324|.
+917374|Conductor que colisiona con otro vehículo.
+917394|Ocupante de un vehículo que recibe colisión de otro vehículo al saltarse éste último un ceda el paso. Ocurrido en el Barrio de Bellavista, esquina c/.Espejo.
+917395|Ocupante de un vehículo que recibe la colisión de otro en el Barrio de Bellavista, esquina c/.Espejo, al saltarse el otro vehículo un ceda el paso.
+917440|conductora de coche, sufre colision en cadena.
+917467|ocupante de coche, sufre colision con otro coche.
+917468|ocupante de coche que es golpeado por otro coche
+917470|conductor de trafico que sufre accidente
+917471|ocupante de coche, sufre colision con otro coche.
+917472|ocupante de coche que es golpeado por otro coche
+917478|conductora de coche, sufre colision trasera de otro coche.
+917491|ocupante de coche, sufre colision trasera de otro coche.
+917494|conductora de furgoneta, colisiona con coche.
+917495|ocupante de furgoneta, colisiona con coche.
+917503|ocupante de coche que colisiano con otro coche
+917512|conductora de coche, sufre colision trasera de otro coche.
+917513|conductor de coche, sufre colision trasera de otro coche.
+917514|ocupante de coche, sufre colision trasera de otro coche.
+917524|recibir una patada de un enfermo, mientras estaba trabajando.
+917607|CAIDA EN LA EMPRESA DONDE TRABAJA. ESTUVO POR URGENCIAS EL MARTES 21 DE MAYO
+917612|CONDUCTORA DE COCHE QUE SUFRE COLISION CON OTRO COCHE
+917631|CCC
+917632|CC
+917634|CC
+917635|CCC
+917636|CCC
+917638|CCVC
+917639|CCC
+917640|CCC
+917641|CC
+917642|CCC
+917646|CCC
+917648|CC
+917681|AUTONOMO QUE EN SU TRABAJO SUFRE UNA DESCARGA ELECTRICA
+917686|VISTO AYER EN URGENCIAS POR ATROPELLO EN PASO DE PEATONES
+917696|OCUPANTE DE COCHE QUE SUFRE COLISION CON OTRO COCHE
+917697|OCUPANTE DE COCHE QUE SUFRE COLISION CON OTRO COCHE
+917705|CONDUCTORA DE COCHE QUE SUFRE COLISION CON OTRO COCHE
+917721|CONDUCTOR DE COCHE QUE SUFRE COLISION CON OTRO COCHE
+917722|OCUPANTE DE COCHE QUE SUFRE COLISION CON OTRO COCHE
+917736|CCC
+917739|CCC
+917740|CCCC
+917742|CCC
+917785|CONDUCTOR DE COCHE QUE SUFRE COLISION CON OTRO COCHE.
+917827|CCC
+917853|CONDUCTORA COCHE QUE RECIBE GOLPE DE OTRO COCHE POR ALCANCE
+917854|#94
+917911|CONDUCTORA DE COCHE QUE RECIBE GOLPE TRASERO DE OTRO COCHE POR ALCANCE
+917984|caida a la puerta de urgencias suelo en mal estado
+918029|Conductora de un coche que recibe alcance por detrás de otro coche, ocurrió en la c/. Marbella de Dos Hermanas.
+918040|Peatón atropellada por un coche en la Avenida de Antonio Mairena a la altura del núm.18 de Alcalá de Guadaíra.
+918151|Se cae de un andamio.
+918190|CCCCC
+918202|Refiere la paciente caída cuando se dirigía a su domicilio después de concluída su jornada laboral.
+918205|ccx
+918214|conductora colisiona con un todoterreno en Alcalá de Guadaira
+918215|ocupante de coche al que impacta un toroterreno en Alcalá de Guadaira
+918220|ccc
+918221|ccc
+918222|ccc
+918226|cccc
+918229|cc
+918240|ccc
+918264|COLISION POR DETRAS EN AUTOVIA A-4
+918265|COLISION POR DETRAS EN AUTOVIA A-4
+918273|sufre caida en el domicilio, al cual acudio la policia
+918289|COLISIONAR 2 VEHICULOS
+918324|CAERLE DESENGRASANTE EN EL OJO
+918382|
+918383|ocupante de coche sufre colision trasera de otro coche el dia 30 de mayo de 2013 sobre las 9 horas en el termino municipal de Dos Hermanas
+918394|conductora de coche sufre colision trasera de otro coche el dia 30 de mayo de 2013 sobre la s12:30 horas en Dos Hermanas
+918395|ocupante de coche sufre colision trasera de otro coche el dia 30 de mayo de 2013 sobre la s12:30 horas en Dos Hermanas
+918397|golpea una pared con el puño
+918401|ocupante de coche sufre colision trasera de otro coche el dia 30 de mayo de 2013 sobre las 13:30 en Sevilla Avenida de Bellavista altura rotonda acceso Hospital de Valme
+918418|colision de 2 vehiculos
+918421|cortarse con herramienta de trabajo
+918440|Motorista que cae tras colisionar contra un vehículo.
+918471|Refiere accidente con colisión trasera.
+918514|ATROPELLADA POR UN COCHE
+918540|ACCIDENTE DE TRAFICO CON OTRO VEHICULO
+918557|conductora de coche que sufre colision con otro coche
+918558|ocupante de coche que sufre colison con otro coche
+918559|peatron atropellado por un coche
+918562|ocupante de coche que sufre colision con otro coche
+918578|ACCIDENTE DE TRAFICO CON OTRO VEHICULO. ACOMPAÑANTE
+918579|ACCIDENTE DE TRAFICO CON OTRO VEHICULO. CONDUCTOR
+918706|colisonar la moto que conducia conun coche
+918713|ocupante de coche que sufre colisión con otro coche
+918717|conductor de coche que sufre colisión con otro coche
+918749|ocupante de coche que recibe el impacto de un trozo de neumático de un camión que tras un reventón y que atraviesa el parabrisas
+918754|conductor de moto que sufre colisión con un coche
+918789|OCUAPANTE DE COCHE QUE SUFRE COLISION TRASERA
+918790|ocupante de coche que sufre colisión con otro coche
+918797|CAIDA ACCIDENTAL
+918816|ha sufrido pisada de un caballo
+918819|le ha caido una regla de escayola en la espalda
+918850|caida accidental
+918868|#94
+918874|ACCIDENTE DE TRAFICO CON OTRO VEHICULO. CONDUCTORA
+918899|ACCIDENTE DE TRAFICO EL DIA ANTERIOR CON OTRO VEHICULO. ACOMPAÑANTE
+918950|CAIDA AL BAJAR UNAS ESCALERAS EN EL HOTEL
+918956|REFIERE DARSE EN UN PORRAZO CON UN PALO EN EL OJO ESTANDO TRABAJANDO
+918982|CAIDA DE UNA BICICLETA
+919016|COLISIONAR EL VEHICULO QUE CONDUCIA CON OTRO
+919044|SER ATROPELLADO POR UN VEHICULO
+919056|CONDUCTOR DE BICICLETA. COLSION
+919133|COLISION POR DETRAS DOS HERMANAS AVENIDA 28 FEBRERO
+919139|COCINERA CORTE CON CUCHILLO
+919269|conductor de moto que sufre accidente
+919276|conductor de bicicleta que colisiona con coche
+919298|ocupante de coche que es golpeado por otro coche
+919299|ocupante de coche que colisiona con otro coche
+919349|CAIDA DE MOTO QUE CONDUCIA
+919375|CONDUCTOR DE COCHE QUE SE SALE DE LA CARRETERA

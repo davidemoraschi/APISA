@@ -1,0 +1,28 @@
+COD_PROCEDIMIENTO_URG|NOMBRE|DESCRIPCION|ACTIVO
+1|Oxigenoterapia|Descripción|1
+2|Intubación|Descripción|1
+3|Monitorización|Descripción|1
+4|Vía venosa central|Descripción|1
+5|Vía venosa periférica|Descripción|1
+6|Vía arterial|Descripción|1
+7|Tubo torácico|Descripción|1
+8|Desfibrilación|Descripción|1
+9|Marcapasos externo|Descripción|1
+10|Sonda nasogástrica|Descripción|1
+11|Sonda vesical|Descripción|1
+12|Hemostasia quirúrgica|Descripción|1
+13|Inmovilización lesiones|Descripción|1
+14|Curas locales|Descripción|1
+15|Inyectables|Descripción|1
+16|Oclusión ocular|Descripción|1
+17|Tapón nasal|Descripción|1
+18|RCP básica|Descripción|1
+19|RCP avanzada|Descripción|1
+20|Extirpación de cuerpo extraño|Descripción|1
+21|Prof. Antitetánica|Descripción|1
+22|Sutura herida|Descripción|1
+23|Ventilación con bolsa|Descripción|1
+24|Drenaje neumotorax tensión|Descripción|1
+25|Periocardiocentesis|Descripción|1
+26|Paracentesis evacuadora|Descripción|1
+27|Ventilación mecánica||1

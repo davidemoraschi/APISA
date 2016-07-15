@@ -1,0 +1,13 @@
+GRME_CODIGO|GRME_DESCRIPCION|GRME_TIPO
+49|Valoración de hábitos tóxicos|0
+50|Valoración cognitiva|0
+52|Valoración de capacidades|0
+53|Ansiedad y depresión|0
+54|Valoración Social|0
+55|Valoración pediátrica|0
+56|Valoración traumatológica|0
+57|Valoración de riesgos|1
+58|Exploración física|1
+59|Cuidados enfermería|0
+61|Valoración de Enfermería|1
+62|Valoración Ginecológica|0

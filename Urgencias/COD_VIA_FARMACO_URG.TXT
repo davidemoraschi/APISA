@@ -1,0 +1,10 @@
+COD_VIAFARMACO|DESCRIPCION
+1|Oral
+2|Intramuscular
+3|Intravenoso
+4|Inhalanoria
+5|Intraosea
+6|Rectal
+7|Intratraqueal
+8|Tópica
+9|Subcutánea

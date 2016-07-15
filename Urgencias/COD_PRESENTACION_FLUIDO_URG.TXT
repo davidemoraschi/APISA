@@ -1,0 +1,33 @@
+COD_PRESENT_FLUIDO_URG|NOMBRE|DESCRIPCION|CANTIDAD|ACTIVO|FLUIDO|CODUNIDAD
+321|asdfasf|asdfafs|0|0|241|002083
+341|Glucosa 5%|Clucosa 5%, 250ml|250|0|261|002083
+342|Glucusa 5%|Glucosa 5%, 500ml|500|0|261|002083
+343|Bicarbonato 1/6M||250|1|262|002083
+344|Bicarbonato 1M||250|1|263|002083
+345|Expafusin|Expafusin|500|1|264|002083
+346|Gelafundina||500|1|265|002083
+347|Glucosa 10%|Glucosa 10%|500|1|266|002083
+348|Glucosa 5%|Glucosa 5% 500|500|1|267|002083
+349|Glucosa 5%|Glucosa 5% 250|250|1|267|002083
+350|Glucosa 5%|Glucosa 5% 100|100|1|267|002083
+351|Glucosalino||500|1|268|002083
+352|Glucosalino ||250|1|268|002083
+353|Hemoce||500|1|269|002083
+354|Manitol 10%||250|1|270|002083
+355|Manitol 20%||250|1|271|002083
+356|Ringer Lactato||500|1|272|002083
+357|Suero Fisiologico|Fisiologico 500ml|500|1|273|002083
+358|Suero Fisiologico|Fisiologico 250ml|250|1|273|002083
+359|Suero Fisiologico|Fisiologico 100ml|100|1|273|002083
+360|Suero Isotomico|Isotomico 500ml|500|1|274|002083
+361|Voluvem 6%||500|1|275|002083
+381|PC en Suero Fisiológico   100ml||100|1|281|002083
+401|Albumina Humana 20% 50ml|Albumina Humana solución al 20 %  50ml|50|0|284|002083
+421|PC en Glucosa 5%          100ml||100|1|282|002083
+422|PC en Glucosa 5%          250ml||250|1|282|002083
+423|PC en Glucosa 5%          500ml||500|1|282|002083
+424|PC en Glucosalino           100ml||100|1|283|002083
+425|PC en Glucosalino           250ml||250|1|283|002083
+426|PC en Glucosalino           500ml||500|1|283|002083
+427|PC en Suero Fisiológico   250ml||250|1|281|002083
+428|PC en Suero Fisiológico   500ml||500|1|281|002083

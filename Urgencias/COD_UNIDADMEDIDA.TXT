@@ -1,0 +1,14 @@
+COD_UMEDIDA|UM_DESCORTA|UM_DESCRIPCION
+1|Kg|Kilogramos
+2|Cm|Centímetro
+3|Kg/m2|Kilogramos/metro cuadrado
+4|ºC|Grados Celsius
+5|LPM|Latidos por minuto
+6|RPM|Respiraciones por minuto
+7|mmHg|Milímetros de mercurio
+8|Saturación|Saturación de hemoglobina
+9|Cm de agua|Centímetros de agua
+10|Ml/hora|Mililitros/hora
+11|%|Porcentaje
+12|Mg/dl|Miligramos por decilitro
+13|Sin Unidad|Sin Unidad asociada

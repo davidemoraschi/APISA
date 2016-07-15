@@ -1,0 +1,45 @@
+/* Formatted on 6/2/2014 12:46:39 (QP5 v5.163.1008.3004) */
+DECLARE
+   v_ADMISION_ID   VARCHAR2 (50);
+BEGIN
+   EXECUTE IMMEDIATE 'ALTER TABLE MSTR_DET_INGRESOS_HISTORICO READ WRITE';
+
+   FOR C1 IN (SELECT NATID_AREA_HOSPITALARIA, DB_LINK_REPLICA
+                FROM MSTR_UTL_LOCAL_CODIGOS
+               WHERE ENABLED = 1)
+   LOOP
+      BEGIN
+         EXECUTE IMMEDIATE
+               'DELETE FROM MSTR_DET_INGRESOS_HISTORICO
+      WHERE NATID_AREA_HOSPITALARIA = '
+            || C1.NATID_AREA_HOSPITALARIA
+            || '
+            AND NATID_ADMISION IN 
+            (SELECT ADMISION_ID
+        FROM REP_HIS_OWN.ADM_ADMISION@'
+            || C1.DB_LINK_REPLICA
+            || '
+       WHERE ADMISION_ID IN (SELECT NATID_ADMISION
+                               FROM MSTR_DET_INGRESOS_HISTORICO
+                              WHERE NATID_AREA_HOSPITALARIA = '
+            || C1.NATID_AREA_HOSPITALARIA
+            || ')
+             AND EPIS_CONTAB = 0)';
+
+         --INTO v_ADMISION_ID;
+
+         DBMS_OUTPUT.put_line (
+            C1.NATID_AREA_HOSPITALARIA || ':' || SQL%ROWCOUNT);
+      EXCEPTION
+         WHEN NO_DATA_FOUND
+         THEN
+            NULL;
+         WHEN TOO_MANY_ROWS
+         THEN
+            DBMS_OUTPUT.put_line (
+               'Too many rows in: ' || C1.NATID_AREA_HOSPITALARIA);
+      END;
+   END LOOP;
+
+   EXECUTE IMMEDIATE 'ALTER TABLE MSTR_DET_INGRESOS_HISTORICO READ ONLY';
+END;

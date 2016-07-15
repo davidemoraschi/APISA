@@ -1,0 +1,228 @@
+CODIGO|DESCRIPCION|COD_CIE9
+1|Absceso|682.9
+2|Adenopatia|785.6
+3|Afasia|784.3
+4|Afonía|784.41
+5|Aftas orales|528.2
+6|Agitación|307.9
+7|Alteraciones analisis de sangre|790.99
+8|Alucinación no visual|780.1
+9|Alucinacion visual|386.16
+10|Anorexia|783.0
+11|Ansiedad|300.00
+12|Ardores|787.1
+13|Artralgia|719.40
+14|Ascitis|789.5
+15|Astenia|780.79
+16|Bulimia|307.51
+17|Bulto en abdomen|789.3
+18|Bulto en cuello|784.2
+19|Caquexia|799.4
+20|Causticación ojo|940.9
+21|Cefalea|784.0
+22|Cervicalgia|723.1
+23|Cianosis|782.5
+24|Colocación sonda nasogástrica|97.01
+25|Coma|780.01
+26|Congestión nasal|478.1
+27|Contractura muscular|728.85
+28|Convulsión|780.3
+29|Crujido rodilla|719.66
+30|Cuerpo extraño árbol respiratorio (aspirado)|934.9
+31|Cuerpo extraño faringe|933.0
+32|Cuerpo extraño nariz|932
+33|Cuerpo extraño oido|931
+34|Cuerpo extraño ojo|930.9
+35|Cuerpo extraño piel|910.6
+36|Cuerpo extraño recto|937
+37|Cuerpo extraño tubo digestivo (deglutido)|938
+38|Cuerpo extraño vagina|939.2
+39|Debilidad|799.3
+40|Decaimiento|799.3
+41|Delirio|780.09
+42|Depresión|311
+43|Diarrea|787.91
+44|Diplopia|368.2
+45|Disartria|784.5
+46|Disfagia|787.2
+47|Disfonía|784.49
+48|Disminución visión|369.9
+49|Disnea|786.0
+50|Distensión abdominal|787.3
+51|Disuria|788.1
+52|Dolor abdominal generalizado|789.07
+53|Dolor abdominal no especificado|789.00
+54|Dolor abdominal, epigastrio|789.06
+55|Dolor abdominal, FID|789.03
+56|Dolor abdominal, FII|789.04
+57|Dolor abdominal, HD|789.01
+58|Dolor abdominal, HI|789.02
+59|Dolor abdominal, hipogastrio|789.09
+60|Dolor abdominal, mesogastrio|789.05
+61|Dolor ano|569.42
+62|Dolor brazo|729.5
+63|Dolor cadera|719.45
+64|Dolor codo|719.42
+65|Dolor costado|786.50
+66|Dolor cuello|723.1
+67|Dolor dedo|729.5
+68|Dolor espalda|724.5
+69|Dolor faringeo|478.29
+70|Dolor fosa renal|788.0
+71|Dolor generalizado|780.9
+72|Dolor hombro|719.41
+73|Dolor mama|611.71
+74|Dolor mandíbula|526.9
+75|Dolor mano|729.5
+76|Dolor muela|525.9
+77|Dolor muñeca|719.43
+78|Dolor oido|388.70
+79|Dolor pene|
+80|Dolor ojo|379.91
+81|Dolor pie|729.5
+82|Dolor pierna|729.5
+83|Dolor precordial|786.51
+84|Dolor retroesternal|786.51
+85|Dolor rodilla|719.46
+86|Dolor testiculo|608.9
+87|Dolor tobillo|719.47
+88|Dolor en vagina|
+89|Dolor torácico|786.50
+90|Dorsalgia|724.5
+91|Eczema|692.9
+92|Edema|782.3
+93|Edema piernas|782.3
+94|Epistaxis|784.7
+95|Equímosis cutánea|782.7
+96|Eritema|695.9
+97|Erosión|910.0
+98|Erupción cutánea|782.1
+99|Estreñimiento|564.0
+100|Exantema|782.1
+101|Fatiga (no disnea)|780.7
+102|Fiebre|780.6
+103|Flemón dentario|522.7
+104|Ganglión|727.4
+105|Gingivorragia|523.8
+106|Hematemesis|578.0
+107|Hematuria|599.7
+108|Hemiplejia|342.9
+109|Hemoptisis|786.3
+110|Hemorragia encías|523.8
+111|Hemorragia garganta|784.8
+112|Hemorragia subcutánea|782.7
+113|Hemorragia subconjuntival|372.72
+114|Hemorroides|455.6
+115|Herida cara|873.4
+116|Herida cuero cabelludo|873.0
+117|Herida frente|873.42
+118|Herida miembro inferior|894.0
+119|Herida miembro superior|884.0
+120|Herida pared abdominal|879.2
+121|Herida pared torácica|875
+122|Heridas múltiples|879.8
+123|Herpes|054.9
+124|Hiperglucemia|790.6
+125|Hiperhidrosis|780.8
+126|Hipersomnia|780.54
+127|Hipo|786.8
+128|Ictericia|782.4
+129|Incontinencia urinaria|788.3
+130|Inflamación labio|528.5
+131|Inflamación mano|686.9
+132|Inflamación párpados|373.9
+133|Inflamación pie|686.9
+134|Ingesta alcohólica|305.0
+135|Ingestión fármacos|E980
+136|Insomnio|780.52
+137|Irritación ojo|372.30
+138|Lagrimeo|375.20
+139|Lumbalgia|724.2
+140|Llanto|
+141|Malestar general|780.7
+142|Mareo|780.4
+143|Melenas|578.1
+144|Molestias urinarias|788.1
+145|Náuseas|787.02
+146|Nerviosismo|799.2
+147|Odinofagia|787.2
+148|Odontalgia|525.9
+149|Ojo rojo|372.03
+150|Oliguria|788.5
+151|Opresión en el pecho|786.59
+152|Otalgia|388.70
+153|Palidez|782.61
+154|Palpitaciones|785.1
+155|Parálisis brazo|344.40
+156|Parálisis facial|351.0
+157|Parálisis pierna|344.30
+158|Parestesias|782.0
+159|Pérdida de conocimiento transitoria|780.2
+160|Pérdida de peso|783.2
+161|Perdida de visión|369.9
+162|Picadura insecto|910.4
+163|Picor ojos|379.99
+164|Pirosis|787.1
+165|Polidipsia|783.5
+166|Poliuria|788.42
+167|Postura anormal|781.9
+168|Problema herida quirurgica|998.1
+169|Problema psicosocial|V62.9
+170|Problema traqueotomía|519.00
+171|Prurito|698.9
+172|Quemadura|949.0
+173|Quiste párpado|374.84
+174|Rectorragia|569.3
+175|Resfriado|460
+176|Retención urinaria|788.2
+177|Ronquera|784.49
+178|Somnolencia|780.09
+179|Sordera|389.9
+180|Supuración uretral|788.7
+181|Sustitución sonda vesical|57.95
+182|Taquicardia|785.0
+183|Temblor|781.0
+184|Tensión arterial elevada (en paciente con HTA)|401.9
+185|Tensión arterial elevada (hallazgo casual)|796.2
+186|Torticolis|723.5
+187|Tos|786.2
+188|Trastorno de la marcha|781.2
+189|Trastorno de la sensibilidad|782.0
+190|Trastorno del habla|784.5
+191|Traumatismo abdomen|868.00
+192|Traumatismo antebrazo|959.3
+193|Traumatismo brazo|959.2
+194|Traumatismo cadera|959.6
+195|Traumatismo cara|959.09
+196|Traumatismo codo|959.3
+197|Traumatismo costal|959.1
+198|Traumatismo craneal|959.01
+199|Traumatismo cuello|959.09
+200|Traumatismo dedo mano|959.5
+201|Traumatismo dorsal|959.1
+202|Traumatismo esternón|959.1
+203|Traumatismo hombro|959.2
+204|Traumatismo lumbar|959.1
+205|Traumatismo mandíbula|959.09
+206|Traumatismo mano|959.4
+207|Traumatismo multiple|718.89
+208|Traumatismo muñeca|959.3
+209|Traumatismo nalga|959.1
+210|Traumatismo nariz|959.09
+211|Traumatismo ojo|921.9
+212|Traumatismo pelvis|959.1
+213|Traumatismo periné|959.1
+214|Traumatismo pie|959.7
+215|Traumatismo pierna|959.7
+216|Traumatismo rodilla|959.7
+217|Traumatismo tobillo|959.7
+218|Traumatismo tórax|862.8
+219|Ulcera decúbito|707.0
+220|Ulcera pie|707.1
+221|Uretrorragia|599.84
+222|Urticaria|708.9
+223|Vértigo|780.4
+224|Visión borrosa|368.8
+225|Visión doble|368.2
+226|Vómitos|787.0
+227|Zumbidos|388.3

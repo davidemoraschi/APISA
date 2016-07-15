@@ -1,0 +1,9 @@
+CODIGO|DESCRIPCION
+1|Centro de salud
+2|Domicilio
+3|Vía pública urbana
+4|Carretera interurbana
+5|Hospital
+6|Dispositivo de Cuidados Críticos y Urgencias (DCCU)
+7|Otros
+8|Empresa

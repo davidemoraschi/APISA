@@ -1,0 +1,39 @@
+CREATE OR REPLACE PACKAGE MSTR_HOSPITALIZACION.ETL_LOAD_INGRESOS_DEL_DIA AS
+	v_module_name VARCHAR2 (100);
+	v_action_name VARCHAR2 (1000);
+
+	PROCEDURE P_001_MULTI_AREA (p_NATID_AREA_HOSPITALARIA IN VARCHAR2);
+
+	PROCEDURE P_001 (Param1 IN NUMBER DEFAULT NULL);
+
+	PROCEDURE CREATE_SYNONYMS (p_DB_LINK_REPLICA IN VARCHAR2);
+
+	PROCEDURE DROP_TABLE (p_table_name IN VARCHAR2);
+
+	PROCEDURE MARK_TABLE_READ_ONLY (p_table_name IN VARCHAR2);
+
+	PROCEDURE MARK_TABLE_READ_WRITE (p_table_name IN VARCHAR2);
+
+	PROCEDURE COMPUTE_STATS (p_table_name IN VARCHAR2);
+
+	PROCEDURE CREATE_PK (p_table_name IN VARCHAR2, p_columns IN VARCHAR2);
+
+	PROCEDURE CREATE_FK (p_table_name IN VARCHAR2
+											,p_constraint_name IN VARCHAR2
+											,p_parent_table IN VARCHAR2
+											,p_columns IN VARCHAR2);
+
+	PROCEDURE CREATE_FK (p_table_name IN VARCHAR2
+											,p_constraint_name IN VARCHAR2
+											,p_parent_table IN VARCHAR2
+											,p_columns IN VARCHAR2
+											,p_parent_columns IN VARCHAR2);
+
+	PROCEDURE CREATE_IDX (p_table_name IN VARCHAR2, p_index_name IN VARCHAR2, p_columns IN VARCHAR2);
+
+	PROCEDURE DROP_IDX (p_table_name IN VARCHAR2, p_index_name IN VARCHAR2);
+
+	PROCEDURE DROP_CONSTRAINT (p_table_name IN VARCHAR2, p_constraint_name IN VARCHAR2);
+END;
+/
+

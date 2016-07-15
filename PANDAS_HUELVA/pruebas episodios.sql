@@ -1,0 +1,16 @@
+/* Formatted on 24/06/2013 15:01:52 (QP5 v5.163.1008.3004) */
+  SELECT *
+    FROM REP_HIS_OWN.ADM_EPISODIO@EXP
+         JOIN REP_HIS_OWN.ADM_EPIS_DETALLE@EXP
+            USING (EPISODIO_ID)
+         JOIN REP_HIS_OWN.ADM_ADMISION@EXP
+            ON (REFERENCIA_ID = ADMISION_ID)
+   WHERE EPISODIO_ID IN
+            (  SELECT EPISODIO_ID                                                                       --, count(EPIS_DETALLE_ID)
+                 FROM REP_HIS_OWN.ADM_EPISODIO@EXP JOIN REP_HIS_OWN.ADM_EPIS_DETALLE@EXP USING (EPISODIO_ID)
+                WHERE FCH_APERTURA >= ADD_MONTHS (TRUNC (SYSDATE, 'YEAR'), -24)
+                      AND FCH_APERTURA <= ADD_MONTHS (TRUNC (SYSDATE, 'YEAR'), 12)
+             GROUP BY EPISODIO_ID
+               HAVING COUNT (EPIS_DETALLE_ID) > 1)
+               and ADM_EPISODIO.modalidad_asist <> 2
+ORDER BY EPISODIO_ID, ADMISION_ID

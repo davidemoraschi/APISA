@@ -1,0 +1,11 @@
+FINA_COD|FINA_DESCRIPCION
+1|Pública. Sistema Nacional de Salud
+2|Pública Andaluza
+4|Empresa colaboradora
+9|No presenta tarjeta sanitaria/nº afiliado
+10|Privada (Particular)
+12|Convenios Internacionales U.E.
+13|Convenio bilateral con España
+14|Sin protección sanitaria
+15|Mutualista: ISFAS, MUFACE, MUGEJU
+16|Cía. privada de asistencia

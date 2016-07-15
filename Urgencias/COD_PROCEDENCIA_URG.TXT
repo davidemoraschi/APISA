@@ -1,0 +1,9 @@
+CODIGO|DESCRIPCION
+1|Medios propios
+2|Centro de salud
+3|Dispositivo de Cuidados Críticos y urgencias (DCCU)
+4|Equipo de emergencias
+5|Fuerza pública
+6|Paciente judicial
+7|Hospital
+8|Otros

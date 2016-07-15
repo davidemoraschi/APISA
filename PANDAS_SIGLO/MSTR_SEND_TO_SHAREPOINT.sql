@@ -1,0 +1,3 @@
+CREATE OR REPLACE DIRECTORY 
+MSTR_SEND_TO_SHAREPOINT AS 
+'/u01/app/oracle/send_to_sharepoint';

@@ -1,0 +1,1 @@
+exec dbms_stats.gather_schema_stats(ownname => 'MD', estimate_percent => dbms_stats.auto_sample_size, method_opt => 'for all columns size AUTO');

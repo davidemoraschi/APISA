@@ -1,0 +1,78 @@
+/* Formatted on 10/30/2014 12:02:11 PM (QP5 v5.163.1008.3004) */
+--
+-- WITH cal AS
+-- (SELECT ADD_MONTHS (TRUNC (SYSDATE, 'YEAR'), -12) inicio_año_pasado, LAST_REFRESH_DATE
+--  FROM SYS.ALL_MVIEWS@SEE41DAE
+-- WHERE MVIEW_NAME = 'ADM_QRF_PQ_DET' AND OWNER = 'REP_HIS_OWN');
+
+
+DROP TABLE TEMP_INTERVENCIONES_A102003;
+
+CREATE TABLE TEMP_INTERVENCIONES_A102003
+NOLOGGING
+PARALLEL
+NOMONITORING
+AS
+   WITH CAL
+        AS (SELECT ADD_MONTHS (TRUNC (SYSDATE, 'YEAR'), -12) INICIO_AÑO_PASADO, LAST_REFRESH_DATE
+              FROM SYS.ALL_MVIEWS@SEE41DAE
+             WHERE MVIEW_NAME = 'ADM_QRF_PQ_DET' AND OWNER = 'REP_HIS_OWN')
+   SELECT                                                                                                                                                                                                      /*+DRIVING_SITE(ADM_QRF_PQ_DET)*/
+         PQ_CAB_ID NATID_CABECERA_PARTE,
+          PQ_DET_ID NATID_DETALLE_PARTE,
+          IQ_PRE_ID NATID_INTERVENCION_PRE,
+          IQ_POST_ID NATID_INTERVENCION_POST,
+          ORDEN IND_ORDEN,
+          PREING_DET_ID NATID_DETALLE_PREINGRESO,
+          NVL (EPISODIO_ID, -1) NATID_EPISODIO,
+          (FCH_APERTURA + (HORA_APERTURA - TRUNC (HORA_APERTURA))) NATID_FECHA_INICIO_EPISODIO,
+          (FCH_CIERRE + (HORA_CIERRE - TRUNC (HORA_CIERRE))) NATID_FECHA_FIN_EPISODIO,
+          TIPO_PROGRAMACION IND_TIPO_PROGRAMACION,
+          ID_USUARIO NATID_USUARIO,
+          DURACION_PREVISTA,
+          NVL (ADMISION_ID, -1) NATID_ADMISION,
+          CENTRO_ID NATID_CENTRO,
+          UNI_FUNCIONAL_ID NATID_UNIDAD_FUNCIONAL,
+          QUIROFANO NATID_QUIROFANO,
+          ESTADO_ID IND_ESTADO,
+          NVL (ADM_EPISODIO.MODALIDAD_ASIST, -1) IND_MODALIDAD_ASISTENCIAL,
+          FECHA_HORA_INICIO NATID_FECHA_INICIO_PARTE,
+          FECHA_HORA_FIN NATID_FECHA_FIN_PARTE,
+          LAST_REFRESH_DATE NATID_FECHA_ULTIMO_REFRESCO
+     FROM REP_HIS_OWN.ADM_QRF_IQ_PRE@SEE41DAE
+          LEFT JOIN REP_HIS_OWN.ADM_EPISODIO@SEE41DAE
+             USING (EPISODIO_ID)
+          JOIN REP_HIS_OWN.ADM_QRF_PQ_DET@SEE41DAE
+             USING (IQ_PRE_ID)
+          JOIN REP_HIS_OWN.ADM_QRF_PQ_CAB@SEE41DAE
+             USING (PQ_CAB_ID)
+          CROSS JOIN CAL
+    WHERE IQ_DESPR_ID IS NULL AND FECHA_HORA_INICIO >= CAL.INICIO_AÑO_PASADO;
+
+/
+
+/*  Los que no tienen episodio_id pero tienen admision_id se recupera el episodio de la admision*/
+
+/*  Los que no tienen episodio_id ni admision_id pero tienen preingreso_id se recupera la admision del preingreso (SESION_PADRE)*/
+
+--
+-- DROP TABLE TEMP_INTERVENCIONES_A202003;
+--
+--CREATE TABLE TEMP_INTERVENCIONES_A202003
+--NOLOGGING
+--PARALLEL
+--NOMONITORING
+--AS
+--   SELECT                                                                                                                                                                                                        /*+DRIVING_SITE(ADM_EPISODIO)*/
+--         EPISODIO_ID,
+--          MODALIDAD_ASIST,
+--          USUARIO,
+--          NATID_DETALLE_PARTE,
+--          E.FCH_APERTURA,
+--          E.HORA_APERTURA,
+--          E.FCH_CIERRE,
+--          E.HORA_CIERRE
+--     FROM    REP_HIS_OWN.ADM_EPISODIO@SEE41DAE E
+--          JOIN
+--             TEMP_INTERVENCIONES_A102003 T
+--          ON (T.NATID_EPISODIO < 0 AND E.USUARIO = T.NATID_USUARIO AND E.MODALIDAD_ASIST <> 4 AND T.NATID_FECHA_INICIO_PARTE >= E.FCH_APERTURA AND (E.FCH_CIERRE IS NULL OR T.NATID_FECHA_INICIO_PARTE <= E.FCH_CIERRE));

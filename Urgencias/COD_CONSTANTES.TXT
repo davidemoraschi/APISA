@@ -1,0 +1,35 @@
+COD_CONSTANTE|CTE_DESCRIPCION|CTE_DESCORTA|CTE_UNIDADMEDIDA|CTE_MULTIPLE|CTE_COD_CONSTANTES|CTE_CALCULADA|CTE_CODSEXO|CTE_EDADMIN|CTE_EDADMAX|CTE_EDADMESES|CTE_FMTDECIMAL
+1|Peso|Peso|1|0|0|0|2|0|150|0|3
+2|Talla|Talla|2|0|0|0|2|0|150|0|0
+3|Indice de masa corporal|IMC|3|0|0|1|2|0|150|0|3
+4|Perímetro cefálico|P.C.|2|0|0|0|2|0|24|1|2
+5|Perímetro abdominal|P.A.|2|0|0|0|2|0|24|1|0
+6|Temperatura|Tª|4|0|0|0|2|0|150|0|1
+7|Frecuencia cardiaca|F.C.|5|0|0|0|2|0|150|0|0
+8|Frecuencia respiratoria|F.R.|6|0|0|0|2|0|150|0|0
+9|Tensión arterial sistólica|T.A.S.|7|0|67|0|2|0|150|0|1
+10|Tensión arterial diastólica|T.A.D.|7|0|67|0|2|0|150|0|1
+11|Tensión arterial media|T.A.M.|7|0|67|1|2|0|150|0|2
+12|Diuresis|D.|10|0|0|0|2|0|150|0|0
+13|Pulsioximetría|Pulsioximetría|8|0|0|0|2|0|150|0|2
+14|Presión venosa central|P.V.C.|9|0|0|0|2|0|150|0|2
+15|Aspiración nasogástrica|S.N.G.|10|0|0|0|2|0|150|0|0
+16|Drenajes|Drenajes|10|0|0|0|2|0|150|0|2
+67|Tensión|Tensión|7|1|0|0|2|0|150|0|0
+68|Saturación de oxígeno|SAO2|11|0|0|0|2|0|150|0|0
+69|Glucosa Basal|Gl.Basal|12|0|0|0|2|0|150|0|0
+70|Glucosa Postpandrial|Gl.Post.|12|0|0|0|2|0|150|0|0
+71|Glucosa antes del desayuno|Gl.A.D.|12|0|0|0|2|0|150|0|0
+72|Glucosa después del desayuno|Gl.D.D.|12|0|0|0|2|0|150|0|0
+73|Glucosa antes del almuerzo|Gl.A.A.|12|0|0|0|2|0|150|0|0
+74|Glucosa después del almuerzo|Gl.D.A.|12|0|0|0|2|0|150|0|0
+75|Glucosa antes de la cena|Gl.A.C.|12|0|0|0|2|0|150|0|0
+76|Glucosa después de la cena|Gl.D.C|12|0|0|0|2|0|150|0|0
+91|Glucosa al azar|Gl.Azar|12|0|0|0|2|0|150|0|0
+93|Escala de coma de Glasgow|GCS|13|0|0|0|2|0|150|0|0
+94|Trauma Score Revisado|TSR|13|0|0|1|2|0|150|0|0
+95|End tidal de CO2|Et CO2|7|0|0|0|2|0|150|0|0
+96|Escala de valoración de autonomía funcional|EVA|13|0|0|0|2|0|150|0|0
+98|HbA1c|HbA1c|11|0|0|0|2|0|150|0|2
+99|Glicemia|Gl|12|0|0|0|2|0|150|0|0
+100|Flujo Espiratorio|PEFR|11|0|0|0|2|0|150|0|0

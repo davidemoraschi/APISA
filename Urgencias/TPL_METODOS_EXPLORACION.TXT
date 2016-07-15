@@ -1,0 +1,86 @@
+COD_TPL_METODO|TPLME_DESCRIPCION|GRME_CODIGO|TPLME_PAGWEB_METODO|TPLME_ACTIVO|TPLME_PAGWEB_METODO|TPLME_FECHA|TPLME_PAGWEB_INSTRUCCIONES
+144|Test de Audit (alcohol)|49|Audit.asp|1|Audit.asp|25/04/2002 00:00:00|
+145|Test Malt (alcoholismo)|49|Malt.asp|1|Malt.asp|25/04/2002 00:00:00|
+146|Dependencia de la nicotina|49|Fagerstrom-nicotina.asp|1|Fagerstrom-nicotina.asp|25/04/2002 00:00:00|
+147|Cage (alcohol)|49|Cuestionario-Cage.asp|1|Cuestionario-Cage.asp|25/04/2002 00:00:00|
+148|Mec de Lobo|50|Mec.asp|1|Mec.asp|25/04/2002 00:00:00|InstMEC.htm
+149|GDS de Reisberg|50|GDS-FAST.asp|1|GDS-FAST.asp|25/04/2002 00:00:00|
+150|CDR Hughes|50|CDR-Hughes.asp|1|CDR-Hughes.asp|25/04/2002 00:00:00|
+151|Indice de Barthel|52|IndiceBarthel.asp|1|IndiceBarthel.asp|25/04/2002 00:00:00|
+152|Indice de Lawton-Brody|52|Lawton-Brody-Instrumental.asp|1|Lawton-Brody-Instrumental.asp|25/04/2002 00:00:00|
+153|Indice de Katz|52|Indice-Kantz.asp|1|Indice-Kantz.asp|25/04/2002 00:00:00|
+154|TIN breve|52|TIN_breve.asp|1|TIN_breve.asp|25/04/2002 00:00:00|
+155|Escala de Karnofsky|52|Karnofsky.asp|1|Karnofsky.asp|25/04/2002 00:00:00|
+156|Escala de ansiedad de Golberg|53|Golberg-Ansiedad.asp|1|Golberg-Ansiedad.asp|25/04/2002 00:00:00|
+157|Escala de depresión de Golberg|53|Golberg-Depresion.asp|1|Golberg-Depresion.asp|25/04/2002 00:00:00|
+158|Escala de ansiedad de Hamilton|53|Ansiedad-Hamilton.asp|1|Ansiedad-Hamilton.asp|25/04/2002 00:00:00|
+159|Depresión geriátrica de Yasavage (red.)|53|Yesavage-Reducida.asp|1|Yesavage-Reducida.asp|25/04/2002 00:00:00|
+160|Escala de Zung|53|Depresion-Zung.asp|1|Depresion-Zung.asp|25/04/2002 00:00:00|
+161|Escala de evaluación de reajuste social|54|EERC-Holmes.asp|1|EERC-Holmes.asp|25/04/2002 00:00:00|
+162|Indice de esfuerzo de cuidador|54|EsfuerzoCuidador.asp|1|EsfuerzoCuidador.asp|25/04/2002 00:00:00|
+163|Valoración social|54|EVS-Gijon.asp|1|EVS-Gijon.asp|25/04/2002 00:00:00|
+164|Trastorno de déficit de atención/hiperactividad|55|Hiperactividad.asp|1|Hiperactividad.asp|25/04/2002 00:00:00|
+165|Cuestionario de Virginia Hendersón|61|Cuestionario-valoracion.asp|1|Cuestionario-valoracion.asp|25/04/2002 00:00:00|
+166|Riesgo cardiovascular (Framingham)|57|Riesgo-coronario.asp|1|Riesgo-coronario.asp|25/04/2002 00:00:00|
+167|Fórmula para el calculo del aclaramiento de creatinina|57|creatinina.asp|1|creatinina.asp|25/04/2002 00:00:00|
+168|Inspección general y piel (inspección general)|58|InspeccionGeneral.asp|1|InspeccionGeneral.asp|25/04/2002 00:00:00|
+169|Cabeza, cara y cuello (cabeza y cuello)|58|ExploracionCACue.asp|1|ExploracionCACue.asp|25/04/2002 00:00:00|
+170|Torax|58|ExploracionToracica.asp|1|ExploracionToracica.asp|25/04/2002 00:00:00|
+171|Abdomen y genitales|58|ExploracionAbdoGen.asp|1|ExploracionAbdoGen.asp|25/04/2002 00:00:00|
+172|Extremidades y columna vertebral|58|ExploracionLocomotora.asp|1|ExploracionLocomotora.asp|25/04/2002 00:00:00|
+173|Exploración neurológica|58|Exploracionneurologica.asp|1|Exploracionneurologica.asp|25/04/2002 00:00:00|
+174|Indice de Glasgow|58|Escala-Glasgow.asp|1|Escala-Glasgow.asp|25/04/2002 00:00:00|
+175|Indice de Quemados|58|Unidad de Quemados\principal.asp|1|Unidad de Quemados\principal.asp|25/04/2002 00:00:00|
+176|Barber|54|BARBER.asp|1|BARBER.asp|20/01/2003 00:00:00|
+177|Apgar familiar|54|ApgarFamiliar.asp|1|ApgarFamiliar.asp|20/01/2003 00:00:00|
+178|Apoyo social funcional de Ducke-Unc|54|DUCKE-UNC.asp|1|DUCKE-UNC.asp|20/01/2003 00:00:00|
+179|Escala de depresion de Hamilton|53|depresion-hamilton.asp|1|depresion-hamilton.asp|20/01/2003 00:00:00|
+180|Escala de Hachinski|50|hachinski.asp|1|hachinski.asp|20/01/2003 00:00:00|
+181|Escala de Zarit|54|ZARIT.asp|1|ZARIT.asp|20/01/2003 00:00:00|
+182|Estadios de maduracion sexual de Tanner|55|Tanner.asp|1|Tanner.asp|20/01/2003 00:00:00|AyudaTanner.asp
+183|Evolucion dental|55|EvoDental.asp|1|EvoDental.asp|20/01/2003 00:00:00|
+184|M.O.S. de apoyo social|54|MOS.asp|1|MOS.asp|20/01/2003 00:00:00|
+192|Escala pediatrica de Glasgow|55|EPediatrica-Glasgow.asp|1|EPediatrica-Glasgow.asp||
+193|Test de Fagerström|59|00Fagerstrom-nicotina.asp|1|00Fagerstrom-nicotina.asp|23/07/2003 00:00:00|
+194|Cuestionario cage camuflado|59|Cuestionario-cage.asp|1|Cuestionario-cage.asp|23/07/2003 00:00:00|
+195|Cuestionario Malt|59|Malt.asp|1|Malt.asp|23/07/2003 00:00:00|
+196|Cuestionario Conozca su salud nutricional|59|01Riesgo_Nutricional.asp|1|01Riesgo_Nutricional.asp|23/07/2003 00:00:00|
+197|Mini Nutrititional Assessment|59|05Estado_Nutricional.asp|1|05Estado_Nutricional.asp|23/07/2003 00:00:00|
+198|Escala de Norton|59|02Escala_de_Norton.asp|1|02Escala_de_Norton.asp|23/07/2003 00:00:00|
+199|Indice de Barthel|59|IndiceBarthel.asp|1|IndiceBarthel.asp|23/07/2003 00:00:00|
+200|Indice de Katz|59|Indice-Kantz.asp|1|Indice-Kantz.asp|23/07/2003 00:00:00|
+201|Lawton-Brody-Instrumental.asp|59|Lawton-Brody-Instrumental.asp|1|Lawton-Brody-Instrumental.asp|23/07/2003 00:00:00|
+202|Test de Pfeiffer versión española|59|EstMental-Pfeiffer.asp|1|EstMental-Pfeiffer.asp|23/07/2003 00:00:00|
+203|Set test de Isaaccs|59|10Isaac.asp|1|10Isaac.asp|23/07/2003 00:00:00|
+204|Mini exámen cognitivo|59|04MEC_30.asp|1|04MEC_30.asp|23/07/2003 00:00:00|
+205|Test del informador|59|03Test_del_Informador.asp|1|03Test_del_Informador.asp|23/07/2003 00:00:00|
+206|Escala de Goldberg|59|Golberg-Depresion.asp|1|Golberg-Depresion.asp|23/07/2003 00:00:00|
+207|Test de Yesavage|59|Yesavage-Reducida.asp|1|Yesavage-Reducida.asp|23/07/2003 00:00:00|
+208|Cuestionario Apgar familiar|59|ApgarFamiliar.asp|1|ApgarFamiliar.asp|23/07/2003 00:00:00|
+209|Cuestionario Duke-unc|59|DUCKE-UNC.asp|1|DUCKE-UNC.asp|23/07/2003 00:00:00|
+210|Cuestionario de Zarit|59|Zarit.asp|1|Zarit.asp|23/07/2003 00:00:00|
+211|Escala de valoración sociofamiliar|59|07Sociofamiliar.asp|1|07Sociofamiliar.asp|23/07/2003 00:00:00|
+212|Valoración de incontinencias urinarias M|59|08Incontingencia_mujeres.asp|1|08Incontingencia_mujeres.asp|23/07/2003 00:00:00|
+213|Indice de Barthel (Shah)|59|06Bartehl_Version_Shah.asp|1|06Bartehl_Version_Shah.asp|23/07/2003 00:00:00|
+214|Valoración de incontinencias urinarias H|59|09Incontingencia_hombres.asp|1|09Incontingencia_hombres.asp|23/07/2003 00:00:00|
+215|Indice de Barthel (Granger)|59|11Bartehl_Version_Granger.asp|1|11Bartehl_Version_Granger.asp|23/07/2003 00:00:00|
+216|Test de apgar: 10 minutos.|55|apgar10minuto.asp|1|apgar10minuto.asp|23/07/2003 00:00:00|
+217|Virginia Henderson|61|henderson.asp|1|henderson.asp|10/09/2003 00:00:00|
+218|Gordon|61|gordon.asp|1|gordon.asp|10/09/2003 00:00:00|
+220|Test de apgar: 1 minutos.|55|apgar1minuto.asp|1|apgar1minuto.asp|23/07/2003 00:00:00|
+221|Test de apgar: 5 minutos.|55|apgar5minuto.asp|1|apgar5minuto.asp|23/07/2003 00:00:00|
+222|Cuestionario CHAT.|55|Cuestionario-CHAT.asp|1|Cuestionario-CHAT.asp|23/07/2003 00:00:00|
+223|Test de sintomatología prostática (IPSS).|57|IPSS.ASP|1|IPSS.ASP|23/07/2003 00:00:00|
+224|Test Doppler.|57|PulsosPerifericos.ASP|0|PulsosPerifericos.ASP|23/07/2003 00:00:00|
+225|Sensibilidad monofilamento.|57|Pies.ASP|1|Pies.ASP|23/07/2003 00:00:00|
+226|Maniobras de Leopold.|62|MLeopold.asp|1|MLeopold.asp|03/12/2003 00:00:00|
+228|Escala de coma de Glasgow|56|ECG.asp|1|ECG.asp|24/03/2004 00:00:00|
+229|Escala de coma de Glasgow pediátrico|56|ECGPedi.asp|1|ECGPedi.asp|24/03/2004 00:00:00|
+230|Trauma de Score revisado|56|TScore-Re2.asp|1|TScore-Re2.asp|24/03/2004 00:00:00|
+231|Trauma de Score revisado pediátrico|56|TScore-Re2Pedi.asp|1|TScore-Re2Pedi.asp|24/03/2004 00:00:00|
+232|Injury Severity Score (ISS)|56|ISS.asp|1|ISS.asp|24/03/2004 00:00:00|
+233|Hospital Trauma Index (HTI)|56|HTI.asp|1|HTI.asp|24/03/2004 00:00:00|
+234|TISS|56|TISS.asp|1|TISS.asp|24/03/2004 00:00:00|
+235|TRISS|56|TRISS.asp|1|TRISS.asp|24/03/2004 00:00:00|
+236|ASCOT|56|ASCOT.asp|1|ASCOT.asp|24/03/2004 00:00:00|
+237|Pupilas|58|Pupilas.asp|1|Pupilas.asp|05/04/2005 00:00:00|

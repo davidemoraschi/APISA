@@ -1,0 +1,11 @@
+SELECT *
+    FROM     (    SELECT NATID_CENTROCONSUMO, SUM (CN03B_IMPORTE) A
+                            FROM MSTR_DET_CN03B
+                    GROUP BY NATID_CENTROCONSUMO) T1
+             JOIN
+                 (    SELECT NATID_CENTROCONSUMO, SUM (CN03B_IMPORTE) B
+                            FROM MSTR_DET_CN03B_REPARTIDO
+                    GROUP BY NATID_CENTROCONSUMO) T2
+             USING (NATID_CENTROCONSUMO)
+ WHERE A <> B
+/

@@ -1,0 +1,23 @@
+CODIGO|DESCRIPCION
+1|Enfermedad común
+2|Accidente de tráfico
+3|Accidente escolar
+4|Accidente laboral
+5|Accidente casual
+6|Cura programada (especifico DCCU)
+7|Inyectable programado (especifico DCCU)
+8|Consulta medica (no asistencial)
+9|Violencia domestica
+10|Agresión
+11|Reconocimiento médico judicial (detenido)
+12|Intoxicación
+13|Autolesión
+14|Abusos Sexuales
+15|Accidente Deportivo
+16|Otras Causas
+17|Catástrofe
+18|Accidente de caza
+22|Ingreso cadaver
+30|Accidente en viaje (terrestre-marítimo)
+31|Accidente  de tráfico-trabajo (in itinere)
+32|Accidente sujeto a Seguro Obligatorio, Resp. Civil

@@ -1,0 +1,37 @@
+/* Formatted on 20/03/2014 11:49:28 (QP5 v5.163.1008.3004) PANDAS Copyright (c) 2013 -Davide Moraschi (davidem@eurostrategy.net)
+Todos los derechos reservados. Prohibida su reproducción Total o Parcial. */
+DROP TABLE MSTR_TIME_N1_AÑOS
+/
+CREATE TABLE MSTR_TIME_N1_AÑOS
+(
+	SUBID_AÑO
+ ,NATID_AÑO
+ ,DESCR_AÑO
+ ,DESCR_AÑO_ROMANO
+ ,SUBID_AÑO_ANTERIOR
+ ,DURACION_AÑO
+ ,CONSTRAINT MSTR_TIME_N1_AÑOS_PK PRIMARY KEY (SUBID_AÑO)
+)
+ORGANIZATION INDEX
+NOLOGGING
+NOMONITORING
+NOPARALLEL
+STORAGE (BUFFER_POOL KEEP) AS
+	SELECT SUBID_AÑO
+				,NATID_AÑO
+				,DESCR_AÑO
+				,DESCR_AÑO_ROMANO
+				,SUBID_AÑO_ANTERIOR
+				,DURACION_AÑO
+		FROM MSTR_MAE_TIEMPO_01_AÑOS;
+				ALTER TABLE MSTR_TIME_N1_AÑOS READ ONLY;
+
+BEGIN
+	SYS.DBMS_STATS.GATHER_TABLE_STATS (OwnName => USER
+																		,TabName => 'MSTR_MAE_TIEMPO_01_AÑOS'
+																		,Estimate_Percent => NULL --SYS.DBMS_STATS.AUTO_SAMPLE_SIZE
+																		,Method_Opt => 'FOR ALL COLUMNS SIZE SKEWONLY '
+																		,Degree => DBMS_STATS.DEFAULT_DEGREE
+																		,Cascade => DBMS_STATS.AUTO_CASCADE
+																		,No_Invalidate => DBMS_STATS.AUTO_INVALIDATE);
+END;

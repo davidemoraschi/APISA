@@ -1,0 +1,47 @@
+/* Formatted on 02/04/2014 14:39:22 (QP5 v5.163.1008.3004) PANDAS Copyright (c) 2013 -Davide Moraschi (davidem@eurostrategy.net)
+Todos los derechos reservados. Prohibida su reproducción Total o Parcial. */
+EXEC MSTR.PANDAS_003_SHAREPOINT.POST_TO_LIST('CAMAS_DEL_DIA','{ ''DESCR'': ''Test uploaded from CODE'', ''CENTRO'': ''Test uploaded from CODE'', ''CONTROL_DE_ENFERMERIA'': ''Test uploaded from CODE''}');
+
+DECLARE
+	v_payload CLOB;
+BEGIN
+	FOR C1 IN (SELECT DESCR_AREA_HOSPITALARIA
+									 ,DESCR_CENTRO
+									 ,DESCR_CAMA
+									 ,DESCR_CONTROL_ENFERMERIA
+									 ,DESCR_UNIDAD_FUNCIONAL3
+									 ,DESCR_TIPO_CAMA
+									 ,DESCR_TIPO_AISLAMIENTO
+									 ,DECODE (NATID_EPISODIO, -1, 'OCUPADA', NULL) ESTADO
+							 FROM MSTR_DET_CAMAS_DEL_DIA
+										JOIN MSTR_MAE_CONTROLES_ENFERMERIA
+											USING (NATID_CONTROL_ENFERMERIA)
+										JOIN MSTR_MAE_CENTROS
+											ON (MSTR_DET_CAMAS_DEL_DIA.NATID_CENTRO = MSTR_MAE_CENTROS.NATID_CENTRO)
+										JOIN MSTR_MAE_AREAS_HOSPITALARIAS
+											ON (MSTR_DET_CAMAS_DEL_DIA.NATID_AREA_HOSPITALARIA = MSTR_MAE_AREAS_HOSPITALARIAS.NATID_AREA_HOSPITALARIA)
+										JOIN MSTR_MAE_UNIDADES_FUNCIONALES3
+											ON (MSTR_DET_CAMAS_DEL_DIA.NATID_UNIDAD_FUNCIONAL3 = MSTR_MAE_UNIDADES_FUNCIONALES3.NATID_UNIDAD_FUNCIONAL3)--WHERE ROWNUM < 10
+						) LOOP
+		v_payload :=		'{ ''DESCR_AREA_HOSPITALARIA'': '''
+								 || C1.DESCR_AREA_HOSPITALARIA
+								 || ''', ''CAMA'': '''
+								 || C1.DESCR_CAMA
+								 || ''', ''CENTRO'': '''
+								 || C1.DESCR_CENTRO
+								 || ''', ''CONTROL_DE_ENFERMERIA'': '''
+								 || C1.DESCR_CONTROL_ENFERMERIA
+								 || ''', ''DESCR_UNIDAD_FUNCIONAL3'': '''
+								 || C1.DESCR_UNIDAD_FUNCIONAL3
+								 || ''', ''DESCR_TIPO_CAMA'': '''
+								 || C1.DESCR_TIPO_CAMA
+								 || ''', ''DESCR_TIPO_AISLAMIENTO'': '''
+								 || C1.DESCR_TIPO_AISLAMIENTO
+								 || ''', ''ESTADO'': '''
+								 || C1.ESTADO
+								 || '''}';
+
+		--DBMS_OUTPUT.put_line (v_payload);
+		MSTR.PANDAS_003_SHAREPOINT.POST_TO_LIST ('CAMAS_DEL_DIA', v_payload);
+	END LOOP;
+END;

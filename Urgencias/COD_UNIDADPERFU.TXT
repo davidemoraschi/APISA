@@ -1,0 +1,9 @@
+COD_UNIDADPERFU|UP_DESCORTA|UP_DESCRIPCION
+1|mg/h|Miligramos por hora
+2|ug/h|Microgramos por hora
+3|cc|Centimetros cúbicos
+4|mg/min|Miligramos por minuto
+5|mg/kg/h|Miligramos por kilogramo por hora
+6|ug/kg/min|Microgramos por kilogramo por minuto
+7|ui/h|Unidad por hora
+8|ug/min|Microgramos por minuto

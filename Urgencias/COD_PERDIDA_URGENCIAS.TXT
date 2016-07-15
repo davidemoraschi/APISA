@@ -1,0 +1,8 @@
+COD_PERDIDAS|NOMBRE|DESCRIPCION|ACTIVO|CODUNIDAD|UNIDMEDIDA
+1|Drenajes|Drenajes|1|000707|
+2|Vómitos J. Gástrico|Vómitos J. Gástrico|1|000707|
+3|Heces|Heces|1|000707|
+4|Hemáticas|Hemáticas|1|000707|
+5|Orina...Fracción|Orina...Fracción|1|000707|
+6|Orina...Suma|Orina...Suma|1|000707|
+7|Perspiratio|Perspiratio o perdida insensible por piel|1|000707|

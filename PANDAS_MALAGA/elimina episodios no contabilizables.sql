@@ -1,0 +1,14 @@
+/* Formatted on 6/2/2014 12:09:32 (QP5 v5.163.1008.3004) */
+ALTER TABLE MSTR_DET_INGRESOS_HISTORICO READ ONLY;
+
+
+DELETE FROM MSTR_DET_INGRESOS_HISTORICO
+      WHERE NATID_AREA_HOSPITALARIA = '02017'
+            AND NATID_ADMISION IN
+                   (SELECT ADMISION_ID
+                      FROM REP_HIS_OWN.ADM_ADMISION@GRE43DAE
+                     WHERE ADMISION_ID IN
+                              (SELECT NATID_ADMISION
+                                 FROM MSTR_DET_INGRESOS_HISTORICO
+                                WHERE NATID_AREA_HOSPITALARIA = '02017')
+                           AND EPIS_CONTAB = 0)

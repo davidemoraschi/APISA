@@ -1,0 +1,53 @@
+/* Formatted on 16/10/2013 15:52:05 (QP5 v5.163.1008.3004) */
+SELECT *                                                                              --ANNO, CLASIFICACION, NIVEL, ID, VALORPADRE
+  --COUNT(*)
+  FROM (SELECT                                                                                                    --BASEIMPONIBLE,
+              FECHAFACTURA,
+               TO_CHAR (FECHAFACTURA, 'YYYY') ANNO,
+               FACTURA,
+               --CLASIFECONOMICADIRECTA,
+               GCDIRECTA,
+               NIVELVALORUNIVERSAL,
+               CAT_NIVELVALOR.ID,
+               --ACCESIBILIDAD,
+               ACTIVO,
+               CLASIFICACION,
+               --CAT_NIVELVALOR.CODIGO,
+               CODIGOCONCATENADO,
+               CAT_NIVELVALOR.DESCRIPCION,
+               --  FECHACREACION,
+               --       FECMODI,
+               --   FINALIZADO,
+               --    HERMANO,
+               -- ID,
+               NIVEL,
+               --     SITUACION,
+               --       USUMODI,
+               VALORPADRE                                                                                                      --,
+          --       VERSION,
+          --     VISIBLEENREVISTA
+          --VERSION
+          FROM REP_PRO_SIGLO.FAC_FACTURALINEA@SYG
+               JOIN REP_PRO_SIGLO.FAC_FACTURA@SYG
+                  ON (FACTURA = FAC_FACTURA.ID)
+               LEFT JOIN REP_PRO_SIGLO.CAT_ARTICULO@SYG
+                  ON (GCDIRECTA = CAT_ARTICULO.ID)
+               LEFT JOIN REP_PRO_SIGLO.CAT_NIVELVALOR@SYG
+                  ON (NIVELVALORUNIVERSAL = CAT_NIVELVALOR.ID))
+--GROUP BY ANNO, CLASIFICACION, NIVEL
+--WHERE CLASIFICACION IS NOT NULL AND VALORPADRE IS NULL
+--WHERE NIVEL = 5058
+WHERE ID IN
+-- NO HAY FACTURAS (SELECT NATID_CATALOGO_N0 FROM MSTR_MAE_CATALOGO_N0)
+--(SELECT NATID_CATALOGO_N1 FROM MSTR_MAE_CATALOGO_N1)
+--(SELECT NATID_CATALOGO_N2 FROM MSTR_MAE_CATALOGO_N2)
+--(SELECT NATID_CATALOGO_N3 FROM MSTR_MAE_CATALOGO_N3)
+--(SELECT NATID_CATALOGO_N4 FROM MSTR_MAE_CATALOGO_N4)
+--(SELECT NATID_CATALOGO_N5 FROM MSTR_MAE_CATALOGO_N5)
+--(SELECT NATID_CATALOGO_N6 FROM MSTR_MAE_CATALOGO_N6)
+--(SELECT NATID_CATALOGO_N7 FROM MSTR_MAE_CATALOGO_N7)
+--(SELECT NATID_CATALOGO_N8 FROM MSTR_MAE_CATALOGO_N8)
+(SELECT NATID_CATALOGO_N9 FROM MSTR_MAE_CATALOGO_N9)
+---NO HAY FACTURAS (SELECT NATID_CATALOGO_NA FROM MSTR_MAE_CATALOGO_NA)
+-- NO HAY FACTURAS (SELECT NATID_CATALOGO_NB FROM MSTR_MAE_CATALOGO_NB)
+

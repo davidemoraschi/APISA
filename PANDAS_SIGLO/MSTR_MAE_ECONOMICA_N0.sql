@@ -1,0 +1,39 @@
+/* Formatted on 06/11/2013 16:28:34 (QP5 v5.163.1008.3004) */
+DROP TABLE MSTR_MAE_ECONOMICA_N4;
+DROP TABLE MSTR_MAE_ECONOMICA_N3;
+DROP TABLE MSTR_MAE_ECONOMICA_N2;
+DROP TABLE MSTR_MAE_ECONOMICA_N1;
+DROP TABLE MSTR_MAE_ECONOMICA_N0;
+
+CREATE TABLE MSTR_MAE_ECONOMICA_N0
+NOLOGGING
+NOMONITORING
+NOPARALLEL
+AS
+   SELECT ID NATID_ECONOMICA_N0, DESCRIPCION DESCR_ECONOMICA_N0
+     FROM REP_PRO_SIGLO.CAT_NIVELVALOR@SYG
+    WHERE CLASIFICACION = 4 AND VALORPADRE IS NULL
+   UNION ALL
+   SELECT -1 NATID_ECONOMICA_N0, 'n/a' DESCR_ECONOMICA_N0 FROM DUAL;
+
+/
+
+ALTER TABLE MSTR_SIGLO.MSTR_MAE_ECONOMICA_N0 ADD
+CONSTRAINT MSTR_MAE_ECONOMICA_N0_PK
+ PRIMARY KEY (NATID_ECONOMICA_N0)
+
+ ENABLE
+ VALIDATE
+/
+
+
+BEGIN
+   SYS.DBMS_STATS.GATHER_TABLE_STATS (OwnName            => 'MSTR_SIGLO',
+                                      TabName            => 'MSTR_MAE_ECONOMICA_N0',
+                                      Estimate_Percent   => 0,
+                                      Method_Opt         => 'FOR ALL COLUMNS SIZE 1',
+                                      Degree             => 4,
+                                      Cascade            => FALSE,
+                                      No_Invalidate      => FALSE);
+END;
+/

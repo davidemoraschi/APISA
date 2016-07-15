@@ -1,0 +1,5 @@
+/* Formatted on 11/5/2014 2:07:16 PM (QP5 v5.163.1008.3004) */
+SELECT DB_LINK || ' ' || DECODE (FUNC_is_link_active (DB_LINK), 0, 'FAILED, ', 'SUCCESS, ') IS_ACTIVE
+  FROM ALL_DB_LINKS
+ WHERE OWNER = 'PUBLIC' AND FUNC_is_link_active (DB_LINK) = 0 
+ AND DB_LINK <> 'SYG'

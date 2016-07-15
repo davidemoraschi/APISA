@@ -1,0 +1,8 @@
+/* Formatted on 16/06/2014 13:11:47 (QP5 v5.163.1008.3004) PANDAS Copyright (c) 2013 -Davide Moraschi (davidem@eurostrategy.net)
+Todos los derechos reservados. Prohibida su reproducción Total o Parcial. */
+WITH CALENDARIO AS
+			 (		SELECT (DATE_GENERA_FECHAS_V2.INICIO_DEL_MES_HACE_TRES_MESES + LEVEL - 1) NATID_FECHA
+							FROM DUAL
+				CONNECT BY ROWNUM <= (DATE_GENERA_FECHAS_V2.FIN_DE_ESTE_MES - DATE_GENERA_FECHAS_V2.INICIO_DEL_MES_HACE_TRES_MESES + 1))
+SELECT *
+	FROM CALENDARIO

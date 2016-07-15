@@ -1,0 +1,21 @@
+COD_FLUIDO_URGENCIAS|NOMBRE|DESCRIPCION|ACTIVO|CODUNIDAD
+241|Agua prueba||0|002083
+261|Glucosa 5%||0|002083
+262|Bicarbonato 1/6 M||1|002083
+263|Bicarbonato 1M||1|002083
+264|Expafusin||1|002083
+265|Gelafundina||1|002083
+266|Glucosa 10%||1|002083
+267|Glucosa 5%||1|002083
+268|Glucosalino||1|002083
+269|Hemoce||1|002083
+270|Manitol 10%||1|002083
+271|Manitol 20%||1|002083
+272|Ringer Lactato||1|002083
+273|Suero Fisiologico||1|002083
+274|Suero Isotomico||1|002083
+275|Voluvem||1|002083
+281|Perfusión en  Suero Fisiológico|Perfusión en Suero fisiológico|1|002083
+282|Perfusión en Glucosa 5%|Perfusión en Suero Glucosado al 5%|1|002083
+283|Perfusión en Glucosalino|Perfusión en Suero Glucosalino|1|002083
+284|Albumina Humana sol 20%||0|002083

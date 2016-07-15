@@ -1,0 +1,18 @@
+/* Formatted on 29/10/2013 13:34:03 (QP5 v5.163.1008.3004) */
+SELECT *
+  FROM REP_PRO_SIGLO.CAT_NIVELVALOR@SYG
+ WHERE ID IN (SELECT NATID_CATALOGO_N8
+                FROM mstr_mae_articulos
+               WHERE NATID_CATALOGO_N8 NOT IN (SELECT NATID_CATALOGO_NB FROM mstr_mae_catalogo_nb))
+               --AND ACTIVO = 'T'
+               
+/
+SELECT *
+  FROM REP_PRO_SIGLO.CAT_NIVELVALOR@SYG
+ WHERE ID IN (
+SELECT NATID_CATALOGO_NB
+                FROM mstr_mae_articulos
+               WHERE NATID_CATALOGO_NB NOT IN (SELECT NATID_CATALOGO_NB FROM mstr_mae_catalogo_nb))
+               /
+
+SELECT DISTINCT estado FROM REP_PRO_SIGLO.CAT_ARTICULO@SYG

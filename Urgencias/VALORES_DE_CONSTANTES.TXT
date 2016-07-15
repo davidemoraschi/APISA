@@ -1,0 +1,33 @@
+VCTE_ID|USU_BDU_NUSA|VCTE_OPERADOR|COD_OBJETO|OBJETO_DESC|VCTE_IDOBJETO|VCTE_FECHA|COD_CONSTANTE|CONSTANTES_DESC|VCTE_VALOR|VCTE_FECINSERCION|VCTE_CENTRO|VCTE_CENTRO_DESC
+1212005|AN0578529017|7122518|4|Hoja de enfermería|1699856|27/05/2013 11:09:19|1|Peso|120|27/05/2013 11:10:02|000489|Medicina Interna
+1212480|AN0447873552|0|1|Hoja de constantes||28/05/2013 09:33:21|9|Tensión arterial sistólica|140|28/05/2013 09:33:46|000496|Endocrinología
+1212481|AN0447873552|0|1|Hoja de constantes||28/05/2013 09:33:21|10|Tensión arterial diastólica|90|28/05/2013 09:33:46|000496|Endocrinología
+1212578|AN0449766163|7123272|4|Hoja de enfermería|1702506|28/05/2013 12:25:06|1|Peso|107|28/05/2013 12:26:43|000489|Medicina Interna
+1212579|AN0449766163|7123272|4|Hoja de enfermería|1702506|28/05/2013 12:25:06|2|Talla|177|28/05/2013 12:26:43|000489|Medicina Interna
+1212580|AN0449766163|7123272|4|Hoja de enfermería|1702506|28/05/2013 12:25:06|3|Indice de masa corporal|34,154|28/05/2013 12:26:44|000489|Medicina Interna
+1212828|AN0063608355|0|1|Hoja de constantes||22/05/2013 16:00:38|1|Peso|53,5|28/05/2013 21:01:06|000496|Endocrinología
+1213014|AN0537776283|7085972|1|Hoja de constantes||29/05/2013 11:18:11|1|Peso|113,5|29/05/2013 11:27:33|000512|Unidad de Salud Mental Comunitaria Los Palacios
+1213015|AN0618647510|7122518|4|Hoja de enfermería|1704441|29/05/2013 11:42:17|1|Peso|66,6|29/05/2013 11:46:15|000489|Medicina Interna
+1213016|AN0618647510|7122518|4|Hoja de enfermería|1704441|29/05/2013 11:42:17|2|Talla|150|29/05/2013 11:46:15|000489|Medicina Interna
+1213017|AN0618647510|7122518|4|Hoja de enfermería|1704441|29/05/2013 11:42:17|3|Indice de masa corporal|29,6|29/05/2013 11:46:15|000489|Medicina Interna
+1213074|AN0465127024|7104464|1|Hoja de constantes||29/05/2013 13:07:53|1|Peso|70|29/05/2013 13:08:19|002088|Unidad de Salud Mental Comunitaria Dos Hermanas
+1213075|AN0465127024|7104464|1|Hoja de constantes||29/05/2013 13:07:53|2|Talla|161|29/05/2013 13:08:19|002088|Unidad de Salud Mental Comunitaria Dos Hermanas
+1213076|AN0465127024|7104464|1|Hoja de constantes||29/05/2013 13:07:53|3|Indice de masa corporal|27,005|29/05/2013 13:08:19|002088|Unidad de Salud Mental Comunitaria Dos Hermanas
+1213400|AN0537626743|7090989|1|Hoja de constantes||30/05/2013 10:29:23|9|Tensión arterial sistólica|105|30/05/2013 10:33:11|002089|Unidad de Salud Mental Comunitaria Alcala de Guadaira
+1213401|AN0537626743|7090989|1|Hoja de constantes||30/05/2013 10:29:23|11|Tensión arterial media|78,33|30/05/2013 10:33:11|002089|Unidad de Salud Mental Comunitaria Alcala de Guadaira
+1213402|AN0537626743|7090989|1|Hoja de constantes||30/05/2013 10:29:23|10|Tensión arterial diastólica|65|30/05/2013 10:33:11|002089|Unidad de Salud Mental Comunitaria Alcala de Guadaira
+1213403|AN0537626743|7090989|1|Hoja de constantes||30/05/2013 10:29:23|1|Peso|92,5|30/05/2013 10:33:11|002089|Unidad de Salud Mental Comunitaria Alcala de Guadaira
+1213404|AN0537626743|7090989|1|Hoja de constantes||30/05/2013 10:29:23|2|Talla|151|30/05/2013 10:33:11|002089|Unidad de Salud Mental Comunitaria Alcala de Guadaira
+1213405|AN0537626743|7090989|1|Hoja de constantes||30/05/2013 10:29:23|3|Indice de masa corporal|40,568|30/05/2013 10:33:11|002089|Unidad de Salud Mental Comunitaria Alcala de Guadaira
+1213412|AN0475471163|7090989|1|Hoja de constantes||30/05/2013 10:44:16|1|Peso|99,5|30/05/2013 10:46:01|002089|Unidad de Salud Mental Comunitaria Alcala de Guadaira
+1213423|AN0594863312|7090989|1|Hoja de constantes||30/05/2013 11:02:02|9|Tensión arterial sistólica|125|30/05/2013 11:04:29|002089|Unidad de Salud Mental Comunitaria Alcala de Guadaira
+1213424|AN0594863312|7090989|1|Hoja de constantes||30/05/2013 11:02:02|11|Tensión arterial media|88,33|30/05/2013 11:04:29|002089|Unidad de Salud Mental Comunitaria Alcala de Guadaira
+1213425|AN0594863312|7090989|1|Hoja de constantes||30/05/2013 11:02:02|10|Tensión arterial diastólica|70|30/05/2013 11:04:29|002089|Unidad de Salud Mental Comunitaria Alcala de Guadaira
+1213426|AN0594863312|7090989|1|Hoja de constantes||30/05/2013 11:02:02|2|Talla|179|30/05/2013 11:04:29|002089|Unidad de Salud Mental Comunitaria Alcala de Guadaira
+1213427|AN0594863312|7090989|1|Hoja de constantes||30/05/2013 11:02:02|1|Peso|117,2|30/05/2013 11:04:29|002089|Unidad de Salud Mental Comunitaria Alcala de Guadaira
+1213428|AN0594863312|7090989|1|Hoja de constantes||30/05/2013 11:02:02|3|Indice de masa corporal|36,578|30/05/2013 11:04:29|002089|Unidad de Salud Mental Comunitaria Alcala de Guadaira
+1213832|AN0441495703|7123272|4|Hoja de enfermería|1706318|31/05/2013 10:09:14|1|Peso|94|31/05/2013 10:10:17|000489|Medicina Interna
+1213889|AN0935009976|7140292|1|Hoja de constantes||31/05/2013 11:53:34|1|Peso|85,3|31/05/2013 11:54:10|000512|Unidad de Salud Mental Comunitaria Los Palacios
+1213890|AN0935009976|7140292|1|Hoja de constantes||31/05/2013 11:53:34|2|Talla|159|31/05/2013 11:54:10|000512|Unidad de Salud Mental Comunitaria Los Palacios
+1213891|AN0935009976|7140292|1|Hoja de constantes||31/05/2013 11:53:34|3|Indice de masa corporal|33,741|31/05/2013 11:54:10|000512|Unidad de Salud Mental Comunitaria Los Palacios
+1213903|AN0561367693|7122518|4|Hoja de enfermería|1706779|31/05/2013 12:29:46|1|Peso|78|31/05/2013 12:31:01|000489|Medicina Interna
